@@ -38,9 +38,10 @@ body{
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////SECTION INTRO*/
 .section__intro{
-    background: url();
+    background: url("../images/HOME/intro_back.jpg") center no-repeat;
     background-size: cover;
-
+    height: 90vh;
+    display: flex;align-items: center;
 }
 .content__intro{
     width: 50%;
@@ -243,10 +244,11 @@ body{
 }
 .content__blue_text{
     display: flex;
-    align-items: center;
+
+    gap: 5vw;
 }
 .right_block_blue_text{
-    padding-right: 10vw;
+
     & p {
         font-size: 14px;
     }
@@ -258,7 +260,6 @@ body{
 }
 .left_block_blue_text{
     width: 90%;
-    padding-right: 5vw;
 }
 
 /*///////////////////////////////////////////////////////////////////SECTION OUR SERVICES*/
@@ -295,7 +296,7 @@ body{
 
 /*///////////////////////////////////////////////////////////////////SECTION MONEY*/
 .section__money{
-    background: url() center no-repeat;
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)) ,url("../images/HOME/numb_back.jpeg") center no-repeat;
     background-size: cover;
     background-color: #0042EB;
     padding-top: 15vh;
