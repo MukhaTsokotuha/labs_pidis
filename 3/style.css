@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #281A1A;
+}
+h2{
+    margin-bottom: 15px;
+}
+img{
+    height: 200px;
+}
+.link{
+    color: #281A1A;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 550;
+}
+.link:hover{
+    color: #FFC63D;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    font-weight: 800;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10vw;
+    & img{
+        height: 44px;
+    }
+}
+section{
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/*-------------------------------------------------------------------------------SECTION--INTRO*/
+.section--intro{
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../3/images/1_intro/intro.jpg') center no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+.intro__text{
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 30px;
+    & h1{
+        font-weight: 800;
+        font-size: 45px;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+.intro__btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.intro__btn{
+    padding: 15px 30px;
+    border: none;
+   
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-yellow{
+    background-color: #FFC63D;
+    color: #191919;
+    border: solid #FFC63D;
+}
+.btn-op-white{
+    background-color: #ffffff00;
+    border: solid #FFC63D;
+}
+.intro__btn:hover{
+    background-color: #fff;
+    color: #281A1A;
+    border: solid #fff;
+    cursor: pointer;
+}
+.fintess_img{
+    margin-top: 60px;
+    height: 70px;
+}
+.svg--arrow img{
+    height: 45px;
+    margin: 60px;
+}
+
+/*-------------------------------------------------------------------------------SECTION--JOINOW*/
+.join--cards{
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+}
+.join--card{
+    background-color: #FFC63D;
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    & p{
+        padding: 10px 20px;
+        margin-top: 5px;
+    }
+}
+.header--join{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #FFC63D;
+    box-shadow: 3px 3px 5px #716d6d;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 35%;
+    top: -15%;
+    & img{
+        height: 50px; 
+    }
+}
+.join--arrow{
+    height: 30px;
+    margin: 20px;
+}
+
+
+/*--------------------------------------------------------------------------------SECTION--WORK_HARD*/
+.section--work_hard{
+    background:  linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url('../3/images/2_whardgres/work_hard.jpg') center no-repeat;
+    background-size: cover;
+}
+.container--work_hard{
+  
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    & h1{
+        font-size: 55px;
+    }
+}
+.work-btn{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*--------------------------------------------------------------------------------SECTION--INVITING AND INSPIRING*/
+.section--inv_ins{
+    padding-bottom: 200px;
+
+    & img{
+        height: 380px;
+        width: 55%;
+        object-fit: cover;
+    }
+}
+.container--inv_ins{
+    display: flex;
+    align-items: center;
+}
+.inv_ins--text{
+    margin: 35px;
+    padding: 35px;
+    & h2{
+        margin-bottom: 15px;
+    }
+    & button{
+        margin-top: 30px;
+        font-size: 10px;
+    }
+}
+
+/*--------------------------------------------------------------------------------SECTION--BENEFITS*/
+.section--benefits{
+    background-color: #FFC63D;
+    position: relative;
+}
+.work_hard_block{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -22%;
+    right: 15%;
+    & button{
+        background-color: #fff;
+        margin-top: 15px;
+    }
+}
+.work_hard--img img{
+    height: 350px;
+  
+}
+.work_hard--text{
+    margin-top: 48px;
+    padding: 50px;
+}
+.container--benefits{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+.card--ben{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.link--ben{
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #191919;
+}
+.link--ben:hover{
+    color: #FFC63D;
+}
+
+
+.ben--imgs{
+    position: absolute;
+    bottom: -10%;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+.ben--img{
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+}
+.ben--img-down{
+    margin-top: 50px;
+}
+/*-------------------------------------------------------------------------------SECTION--SIGNUP*/
+.section--signUp{
+    padding: 30vh 20vw;
+    padding-bottom: 15vh;
+}
+
+.container--signUp{
+
+    top:30%;
+    display: flex;
+    gap: 20px;
+    width: 65vw;
+}
+.block--signUp{
+    width: 30vw;
+    & h2{
+        font-size: 25px;
+    }
+    & p{
+        font-size: 20px;
+    }
+}
+.block--bookWorkout{
+    & h1{
+        text-align: left;
+        font-size: 60px;
+    }
+    
+}
+.tel{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+    & p{
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+.inp--signUp{
+    display: flex;
+    margin-top: 15px;
+}
+.btn--sub{
+    height: 40px;
+
+    font-weight: 600;
+    padding: 2px 5px;
+    font-size: 15px;
+}
+.inp--sub{
+    height: 40px;
+
+}
+
+/*-------------------------------------------------------------------------------SECTION--SIGNUP*/
+.section--mem_options{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../3/images/6_membershit_options/member_options.jpg') center no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    height: 50vh;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.container--mem_options_cards{
+    position: absolute;
+    top: 70%;
+    display: flex;
+    gap: 20px;
+}
+.opt_card{
+    background-color: #fff;
+    width: 20vw;
+    border: 2px solid #FFC63D;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.opt-btn{
+    margin-top: 25px;
+}
+
+/*-------------------------------------------------------------------------------SECTION--AMENITIES*/
+.section--amenities{
+    padding-top: 350px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    & p{
+        padding: 40px 10vw;
+        font-size: 25px;
+    }
+
+}
+.block--amenities{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw;
+}
+.amen--card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amen--card--1{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../3/images/7_amenities/1_pool.jpg') center no-repeat;
+    background-size: cover;
+}
+.amen--card--2{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../3/images/7_amenities/2_studios.jpg') center no-repeat;
+    background-size: cover;
+}
+.amen--card--3{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../3/images/7_amenities/3_lounge_and_cafe.jpg') center no-repeat;
+    background-size: cover;
+}
+.amen--card--4{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../3/images/7_amenities/4_sauna.jpg') center no-repeat;
+    background-size: cover;
+}
+.amen--card--5{
+    background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('../3/images/7_amenities/5_outdoor_spaces.jpg') center no-repeat;
+    background-size: cover;
+}
+.amen--card--6{
+    background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('../3/images/7_amenities/6_basketball_court.jpg') center no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------------------------------------------------SECTION--SIGNUP*/
+.section--followUs{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('../3/images/8_follow_instagram/instagram.jpg');
+    background-size: cover;
+    height: 100vh;
+    line-height: 1.5;
+    & p{
+        font-size: 35px;
+        font-weight: 700;
+
+    }
+}
+.link--email:hover{
+    color: #FFC63D;
+}
+.follow-svg img{
+    width: 12vh;
+    height: 12vh;
+}
+
+
+/*-------------------------------------------------------------------------------SECTION--OUR TRAINERS*/
+
+.block--our_trainers--text{
+    margin-top: 15vh;
+    padding-right: 5vw;
+    & h2{
+        font-size: 50px;
+        font-weight: 700;
+        
+    }
+    & p{
+        margin: 40px 0;
+    }
+}
+.our_trainers--picts{
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 15vw 15vw;
+    gap: 20px;
+}
+.trainer__pict img{
+    height: 15vw;
+    width: 15vw;
+}
+/*-------------------------------------------------------------------------------SECTION--PERSONAL TRAINING*/
+.section--personal_training{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('../3/images/10_elite_personal_training/pers_training.jpg');
+    background-size: cover;
+    height: 100vh;
+    line-height: 1.5;
+    & p{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------SECTION--CONTACT US*/
+.section--contact_us{
+    background-color: #FFC63D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block--form{
+    background-color: #fff;
+    padding: 30px;
+    width: 45vw;
+}
+.contact__form{
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 60px;
+    font-size: 15px;
+    & input{
+        height: 50px;
+        margin: 10px;
+        padding: 5px;
+        width: 100%;
+
+    }
+    
+
+}
+.inp--name{
+    grid-row: 1;
+    grid-column: 2;
+}
+.inp--phone{
+    grid-row: 2;
+    grid-column: 1;
+}
+.inp--date{
+    grid-row: 2;
+    grid-column: 2;
+}
+.inp--message{
+    grid-row:3;
+    grid-column: 1/3;
+}
+
+.submit{
+    background-color: #191919;
+    grid-row:4;
+    grid-column: 1/3;
+}
+.submit:hover{
+    background-color:#FFC63D;
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1340px){
+    section{
+        padding-left: 20vw;
+        padding-right: 20vw;
+        font-size: 2.2vh;
+    }
+    .work_hard--img{
+        width: 25vw;
+    }
+    .ben--imgs{
+        bottom: -20%;
+    }
+    .ben--img{
+        width: 260px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .ben--img-down{
+        margin-top: 80px;
+    }
+}

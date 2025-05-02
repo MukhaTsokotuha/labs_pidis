@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .block{
+                margin-top: 120vh;
+                height: 10vh;
+                width: 10vh;
+                background-color: #c44040;
+                scale: 0;
+                transition: 5s;
+            }
+
+        </style>
+         <style>
+            body {
+            height: 200vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            .scroll-element {
+            opacity: 0;
+            transition: opacity 6s;
+            }
+            .scroll-element.visible {
+            opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="block"></div>
+        <div class="scroll-element">Animate me!</div>
+       
+    
+        <script>
+            // setInterval(function(name, age) {
+            //     console.log(`Раз в секунду печатаю имя «${name}» и ${age}`)
+            // }, 1000, 'Ivan', 33)
+
+            // Раз в секунду печатаю имя «Иван» и 33
+            let scrollElement = document.querySelector('.block')
+            // function Scroll(){
+               
+            //     const elementPosition = scrollElement.getBoundingClientRect().top;
+            //     console.log(elementPosition, window.innerHeight)
+            //     if (elementPosition < window.innerHeight){
+            //         document.querySelector('.block').setAttribute('style','opacity:1')
+            //     }
+               
+            // }
+            window.addEventListener('scroll', function(){
+                const elementPosition = scrollElement.getBoundingClientRect().top;
+                console.log(elementPosition, window.innerHeight)
+                if (elementPosition < window.innerHeight){
+                    document.querySelector('.block').setAttribute('style','scale:1')
+                }
+            })
+
+            // document.addEventListener('DOMContentLoaded', () => {
+
+            // const scrollElement = document.querySelector('.scroll-element');
+
+            // const handleScroll = () => {
+
+            //     const elementPosition = scrollElement.getBoundingClientRect().top;
+            //     console.log(elementPosition)
+
+            //     const viewportHeight = window.innerHeight;
+            //     console.log(viewportHeight)
+            //     if (elementPosition < viewportHeight) {
+
+            //         scrollElement.classList.add('visible');
+
+            //     }
+
+            //     };
+
+            //     window.addEventListener('scroll', handleScroll);
+
+            //     handleScroll();
+            // });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+.block_cards--our_team{
+    margin-top: 15px;
+    display: flex;
+    gap : 30px;
+    align-items: center;
+}
+.card--our_team{
+    text-align: center;
+    & h3{
+        font-weight: 800;
+    }
+}
+.img--our_team{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.cards--our_team{
+    display: flex;
+    justify-content: flex-start;
+    transition: justify-content 1s linear;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.abs_block_cards--our_team{
+    transition: right 1s linear;
+    position: absolute;
+    overflow: hidden;
+    transition: left 1s linear;
+    width: 75vw;
+}
+.content--our_team{
+    position: relative;
+    padding: 0;
+    margin: 30px 10vw;
+   
+}
+.block_cards--our_team{
+    margin-top: 15px;
+    display: flex;
+    gap : 10px;
+    align-items: center;
+}
+.card--our_team{
+    text-align: center;
+    & h3{
+        font-weight: 800;
+    }
+}
+.img--our_team{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.cards--our_team{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+    width: 120%;;
+}
+.block_cards--our_team{
+    display: flex;
+    padding: 15vh 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}

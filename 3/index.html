@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header__logo">
+                <img src="images/default-logo.png" alt="">
+            </div>
+            <div class="header__menu">
+                <a class="link" href="">Home</a>
+                <a class="link" href="">Landing</a>
+            </div>
+        </header>
+        <section class="section--intro">
+            <div class="container">
+                <div class="intro__logo">
+                    <img class="fintess_img" src="images/1_intro/fitness_png.png" alt="">
+                </div>
+                <div class="intro__text">
+                    <h1>Health & Fitness CLub</h1>
+                    <p>Current hours of operation:</p>
+                    <p>Monday - Thursday: 5:30am - 10pm</p>
+                    <p>Friday: 5:30am - 9pm</p>
+                    <p>Saturday & Sunday: 8am - 8pm</p>
+                </div>
+                <div class="intro__btns">
+                    <button class="intro__btn btn-yellow">image gallery</button>
+                    <button class="intro__btn btn-op-white">recorded classes</button>
+                </div>
+                <span class="svg--arrow"
+                 data-href="/#sec-c3e7" data-animation-name="customAnimationIn" 
+                 data-animation-duration="1500" data-animation-delay="750" >
+                 <img src="data:image/png;base64,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" alt="">
+                </span>
+                
+            </div>
+        </section>
+
+        <section class="section--joinow">
+            <div class="container">
+                <h1>Join now for just $10/month</h1>
+                <div class="join--cards">
+                    <div class="join--card">
+                        <div class="header--join">
+                            <img src="images/join-us/1.png" alt="" class="header--join--img">
+                        </div>
+                        <h3>Unlimited Fitness</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <img src="images/join-us/arrow.png" alt="" class="join--arrow">
+                    </div>
+                    <div class="join--card">
+                        <div class="header--join">
+                            <img src="images/join-us/2.png" alt="" class="header--join--img">
+                        </div>
+                        <h3>Personal Training</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <img src="images/join-us/arrow.png" alt="" class="join--arrow">
+                    </div>
+                    <div class="join--card">
+                        <div class="header--join">
+                            <img src="images/join-us/3.png" alt="" class="header--join--card">
+                        </div>
+                       
+                        <h3>Massage Therapy</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <img src="images/join-us/arrow.png" alt="" class="join--arrow">
+                    </div>
+                    <div class="join--card">
+                        <div class="header--join">
+                            <img src="images/join-us/4.png" alt="" class="header--join--card">
+                        </div>
+                        <h3>Quick Workouts</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <img src="images/join-us/arrow.png" alt="" class="join--arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--work_hard">
+            <div class="container--work_hard">
+                <h1 class="h1--outdoor">Work Hard Get Results</h1>
+                <button class="intro__btn btn-yellow work-btn">Book a tour today</button>
+            </div>
+        </section>
+
+        <section class="section--inv_ins">
+            <div class="container--inv_ins">
+                <img src="images/3_inv_insp_lrnmore/inviting_inspiring.jpg" alt="">
+                <div class="inv_ins--text">
+                    <h2>Inviting & inspiring</h2>
+                    <p>Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas. Lobortis elementum nibh tellus molestie nunc non. Aliquet bibendum</p>
+                    <button class="intro__btn btn-yellow">Learn more</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section--benefits">
+            <div class="work_hard_block">
+                <div class="work_hard--text">
+                    <h2>Work Hard Get Results</h2>
+                    <p>Ultricies leo integer malesuada nunc vel risus commodo viverra maecenas. Lobortis elementum nibh tellus molestie nunc non. Aliquet bibendum</p>
+                    <button class="intro__btn btn-yellow">Contact us</button>
+                </div>
+                <div class="work_hard--img">
+                    <img src="images/4_contact_us_whard_gres/contact_us.jpg" alt="">
+                </div>
+            </div>
+            <div class="container--benefits">
+                <h1>Benefits of sport training</h1>
+                <div class="join--cards">
+                    <div class="join--card card--ben">
+                        <h3> Agility</h3>
+                        <p>Sem integer vitae justo eget magna fermentum iaculis eu. Erat pellentesque adipiscing commodo elit at imperdiet dui. Nec sagittis aliquam malesuada bibendum.</p>
+                        <a class="link--ben"  href="">MORE</a>
+                    </div>
+                    <div class="join--card card--ben">
+                        
+                        <h3>Strength</h3>
+                        <p>Sem integer vitae justo eget magna fermentum iaculis eu. Erat pellentesque adipiscing commodo elit at imperdiet dui. Nec sagittis aliquam malesuada bibendum.</p>
+                        <a class="link--ben"  href="">MORE</a>
+                        
+                    </div>
+                    <div class="join--card card--ben">
+                        
+                        <h3>Quickness</h3>
+                        <p>Sem integer vitae justo eget magna fermentum iaculis eu. Erat pellentesque adipiscing commodo elit at imperdiet dui. Nec sagittis aliquam malesuada bibendum.</p>
+                        <a class="link--ben" href="">MORE</a>
+                    </div>
+                    <div class="join--card card--ben">
+                        <h3>Power</h3>
+                        <p>Sem integer vitae justo eget magna fermentum iaculis eu. Erat pellentesque adipiscing commodo elit at imperdiet dui. Nec sagittis aliquam malesuada bibendum.</p>
+                        <a class="link--ben"  href="">MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ben--imgs">
+                <img src="images/5_benefits/1.jpg" alt="" class="ben--img">
+                <img src="images/5_benefits/2.jpg" alt="" class="ben--img ben--img-down">
+                <img src="images/5_benefits/3.jpg" alt="" class="ben--img">
+                <img src="images/5_benefits/4.jpg" alt="" class="ben--img ben--img-down">
+            </div>
+        </section>
+
+        <section class="section--signUp">
+            <div class="container--signUp">
+                <div class="block--signUp">
+                    <h2>Sign up for the newsletter</h2>
+                    <p>Want to be the first to read our news? Subscribe to the newsletter to keep abreast of all events.</p>
+                    <div class="inp--signUp">
+                        <input type="text" class="inp--sub" placeholder="Enter a valid email address">
+                        <button class="btn-yellow btn--sub">SUBMIT</button>
+                    </div>
+                </div>
+                <div class="block--bookWorkout">
+                    <h1 class="large--text">Book your workout</h1>
+                    <div class="tel">
+                        <span class="tel-svg">
+                            <svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;">
+                                <path 
+                                    d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z">
+                                </path>
+                            </svg>
+                        </span>
+                        <p>+1(234)567-8910</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section--mem_options">
+            <h1>Membership Options</h1>
+            <p>All Memberships include full access to our amenities, pools, fitness classes & much more id est laborum.</p>
+            <div class="container--mem_options_cards">
+                <div class="opt_card">
+                    <h2>Health</h2>
+                    <p>Unlimited Classes</p>
+                    <p>Daily Locker</p>
+                    <p>Fitness Evaluation</p>
+                    <p>Guest Passes</p>
+                    <p>1 PT Sessionure</p>
+                    <button class="intro__btn btn-yellow work-btn opt-btn">Inquire for rates</button>
+                </div>
+                <div class="opt_card">
+                    <h2>Health Plus</h2>
+                    <p>Health's Features +</p>
+                    <p>Laundry Service</p>
+                    <p>Overnight Locker</p>
+                    <p>Guest Passes</p>
+                    <p>3 PT Sessions</p>
+                    <button class="intro__btn btn-yellow work-btn opt-btn">Inquire for rates</button>
+                </div>
+                <div class="opt_card">
+                    <h2>Other</h2>
+                    <p>Corporate</p>
+                    <p>Neighborhood</p>
+                    <p>Student</p>
+                    <p>Guest Passes</p>
+                    <p>Spousal</p>
+                    <button class="intro__btn btn-yellow work-btn opt-btn">Learn more</button>
+                </div>
+            </div>
+        </section>
+        <section class="section--amenities">
+            <h1>Amenities</h1>
+            <p>
+                Modern design and comfortable, all-inclusive luxury. With our extensive range of amenities, that includes sprawling outdoor terraces, 
+                we offer a space unlike any other in New York City. You'll love your time here.
+            </p>
+            <div class="block--amenities">
+                <div class="amen--card amen--card--1">
+                    <button class="intro__btn btn-yellow work-btn">Pool and Jacuzzi</button>
+                </div>
+                <div class="amen--card amen--card--2">
+                    <button class="intro__btn btn-yellow work-btn">Studios</button>
+                </div>
+
+                <div class="amen--card amen--card--3">
+                    <button class="intro__btn btn-yellow work-btn">lounge and cafe</button>
+                </div>
+
+                <div class="amen--card amen--card--4">
+                    <button class="intro__btn btn-yellow work-btn">Sauna</button>
+                </div>
+
+                <div class="amen--card amen--card--5">
+                    <button class="intro__btn btn-yellow work-btn">outdoor spaces</button>
+                </div>
+
+                <div class="amen--card amen--card--6">
+                    <button class="intro__btn btn-yellow work-btn">Basketball court</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--followUs">
+            <div class="container--work_hard">
+                <span class="follow-svg" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" style="will-change: transform, opacity; animation-duration: 1500ms;"><img src="data:image/png;base64,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" alt="">
+                </span>
+                <h1>See more, follow us on</h1>
+                <p>Instagram <span class="link--email">@amazingsportclub</span></p>
+            </div>
+            
+        </section>
+
+        <section class="section--our_trainers">
+            <div class="block--our_trainers--text">
+                <h2>Our Trainers</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="btn-yellow work-btn intro__btn">Learn more</button>
+            </div>
+            <div class="our_trainers--picts">
+                <div class="trainer__pict">
+                    <img src="images/9_our_trainers/1.jpg" alt="">
+                </div>
+                <div class="trainer__pict">
+                    <img src="images/9_our_trainers/2.jpg" alt="">
+                </div>
+                <div class="trainer__pict">
+                    <img src="images/9_our_trainers/3.jpg" alt="">
+                </div>
+                <div class="trainer__pict">
+                    <img src="images/9_our_trainers/4.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section--personal_training">
+            <div class="container--work_hard">
+                <span class="follow-svg" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" style="will-change: transform, opacity; animation-duration: 1500ms;"><img src="data:image/png;base64,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" alt="">
+                </span>
+                <h1>Elite Personal training</h1>
+                <p>Individualized Programs. Dedicated Trainers.</p>
+            </div>
+        </section>
+
+        <section class="section--contact_us">
+            <div class="block--form">
+                <h1>Contact us</h1>
+                <form action="" class="contact__form">
+                    <label class="inp--address">
+                        <p>Address</p>
+                        <input type="text" name="address" >
+                    </label>
+                    <label class="inp--name">
+                        <p>Name</p>
+                        <input type="text"name="name"  placeholder="Enter your Name">
+                    </label>
+                    <label class="inp--phone">
+                        <p>Phone</p>
+                        <input type="text" name="phone"  placeholder="Enter your phone">
+                    </label>
+                    <label class="inp--date">
+                        <p>Date</p>
+                        <input type="date" name="date" >
+                    </label>
+                    <label class="inp--message">
+                        <p>Message</p>
+                        <input type="text" name="message" >
+                    </label>
+                    <button class="submit work-btn intro__btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

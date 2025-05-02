@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header__logo">
+                <img src="images/intro__logo.png" alt="">
+            </div>
+            <div class="header__menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+        </header>
+        <section class="section--intro">
+            <div class="intro--block">
+                <div class="intro--text">
+                    <h1>FAQ</h1>
+                    <p> Nibh venenatis cras sed felis eget velit aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+                    <button class="btn">Read more</button>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="section--info">
+            <div class="info--img">
+                <img class="circle--img" src="images/2.jpg" alt="">
+            </div>
+            <div class="info--block">
+                <div class="info--text--li">     
+                    <p class="link--li">Do I have to be a member to run with you?</p>
+                    <div class="plus">+</div>
+                </div>
+                <div class="info--text--li">
+                    <p class="link--li">Do members get together to run at other times?</p>
+                    <div class="plus">+</div>
+                </div>
+                <div class="info--text--li">
+                    <p class="link--li">How to get future updates?</p>
+                    <div class="plus">+</div>
+                </div>
+                <div class="info--text--li">
+                    <p class="link--li">Am I too slow for the run club?</p>
+                    <div class="plus">+</div>
+                </div>
+                <div class="info--text--li">
+                    <p class="link--li">I’m training for my first 5k, is this a good group to join?</p>
+                    <div class="plus">+</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--contact">
+            <div class="contact--img">
+                <img class="circle--img cont--circle--img" src="images/3.jpg" alt="">
+            </div>
+            <div class="contact--form">
+                <div class="left--form">
+                    <h1>Contact Us</h1>
+                    <input type="text" placeholder="Enter a name">
+                    <input type="email" placeholder="Enter a valid email address">
+                    <input type="text">
+                    <button class="btn sub--btn">submit</button>
+                </div>
+                <div class="right--form">
+                    <div class="call_us">
+                        <div class="tel-block">
+                            <span class="icon-tel"><img src="data:image/png;base64,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" alt=""></span>
+                            <h3>Call Us</h3>
+                        </div>
+                        
+                        <p>1 (234) 567-891, 1 (234) 987-654</p>
+                    </div>
+                    <div class="location">
+
+                        <h3>Location</h3>
+                        <p>121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                    </div>
+                    <div class="business_hours">
+                        <h3>Business Hours</h3>
+                        <p>Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
