@@ -72,7 +72,7 @@ body{
 
 }
 
-
+/*/////////////////////////////////////////////////////////////////////////SECTION INTRO*/
 .section__intro{
     background: url("../images/HOME/intro_back.jpg") center no-repeat;
     background-size: cover;
@@ -109,10 +109,11 @@ body{
     }
 }
 
-
+/*/////////////////////////////////////////////////////////////////////////SECTION EXPLORE*/
 .section__explore{
     color: #fff;
     background-color: #0042EB;
+
     & h1{
         font-size: 35px;
         text-align: center;
@@ -145,6 +146,11 @@ body{
     color: black;
 }
 
+
+/*/////////////////////////////////////////////////////////////////////////SECTION MED SOL*/
+.section__med_sol{
+    padding-bottom: 100px;
+}
 .text_med_sol{
     width: 50%;
     & h1{
@@ -160,4 +166,81 @@ body{
     gap: 15px;
     align-items: center;
     margin: 25px 0;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////SECTION HOW WORK*/
+.section__how_work{
+    background-color: #0042EB;
+    color: #fff;
+    text-align: center;
+}
+.block__margin_how_work{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -80px;
+}
+.margin_card{
+    background-color: #fff;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3dvh;
+    color: #000;
+    transition: .2s linear;
+    & h1{
+        font-size: 45px;
+    }
+    & h6{
+        color: #797777b0;
+    }
+}
+
+.text_how_work{
+    margin-top: 40px;
+    & h1{
+        font-size: 34px;
+        margin: 10px 0;
+    }
+    & p{
+        padding: 30px 20vw;
+        padding-top: 0;
+    }
+}
+.text_cards_how_work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+    & h3{
+        font-size: 16px;
+    }
+    & p{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    & img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+.content__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    & h6{
+        color: #797777;
+    }
 }
